@@ -1,0 +1,14 @@
+body.dragging {
+    border-right: 50px solid red;
+}
+
+.tre-multieditor-mode::-webkit-scrollbar {
+    width: 0 !important;
+}
+.tre-multieditor-mode {
+    overflow: auto;
+}
+.tre-finder::-webkit-scrollbar {
+    width: 0 !important;
+}
+

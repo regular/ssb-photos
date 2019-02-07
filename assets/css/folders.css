@@ -1,0 +1,24 @@
+.tre-folders.children > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+    grid-auto-rows: 96px;
+    grid-auto-flow: row;
+    place-content: stretch;
+    padding: 1px;
+    grid-gap: 1px;
+}
+
+.tre-folders .tile{
+    background: #333;
+    box-sizing: border-box;
+}
+
+.tre-folders .tile img {
+    border: 1px solid black;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+.tre-folders .tile .name {
+    padding-top: .3em;
+    font-size: 10px;
+}

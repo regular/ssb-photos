@@ -1,6 +1,10 @@
 .tre-style-panel {
     padding: .4em 0;
     box-sizing: border-box;
+    height: calc(100% - 1em);
+    overflow-y: auto;
+    margin: .5em .5em;
+    border: 1px solid #222;
 }
 .tre-style-panel .tre-editor-shell > span,
 .tre-style-panel .tre-stylesheet-editor h1 {
@@ -14,7 +18,7 @@
 .tre-style-panel::before {
     content: 'Stylesheets';
     font-family: "NotoSansDisplay ThinItalic";
-    color: #222;
+    color: #888;
     font-weight: 200;
     font-size: 18pt;
     display: block;
@@ -24,10 +28,13 @@
 }
 
 .tre-style-panel summary {
-    background: #aaa;
-    margin-bottom: .1em;
-    border-top: 1px solid #ccc;
+    background: #555;
+    border-top: 1px solid #666;
+    color: #bbb;
+    font-size: 12px;
+    padding: .3em 0em;
     padding-left: 1em;
+    text-shadow: 1px 1px 1px  rgba(0,0,0,.4);
 }
 
 

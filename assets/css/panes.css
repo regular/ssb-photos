@@ -1,11 +1,12 @@
 body .pane {
-    background: #bbb;
+    background: #333;
+    overflow: hidden;
 }
 
 .divider {
-    border-top: 1px solid #aaa;
-    border-left: 1px solid #aaa;
-    background: #ddd;
-    border-bottom: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-top: 1px solid #111;
+    border-left: 1px solid #111;
+    background: #222;
+    border-bottom: 1px solid #444;
+    border-right: 1px solid #333;
 }
