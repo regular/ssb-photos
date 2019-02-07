@@ -1,0 +1,5 @@
+body pre {
+    font-family: "RobotoMono Regular";
+    background: green;
+    width: min-content;
+}

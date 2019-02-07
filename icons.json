@@ -1,0 +1,22 @@
+{
+  "importers": {
+    "tre-images": true
+  },
+  "messages": {
+    "icons": {
+      "name": "Icons",
+      "type": "folder",
+      "branch": "%assets",
+      "root": "%root"
+    }
+  },
+  "files": {
+    "icon-images": {
+      "path": "assets/icons/folder.svg",
+      "content": {
+        "branch": "%icons",
+        "root": "%root"
+      }
+    }
+  }
+}

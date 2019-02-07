@@ -1,0 +1,47 @@
+{
+  "importers": {
+    "tre-stylesheets": true
+  },
+  "files": {
+    "finder.css": {
+      "path": "assets/css/finder.css",
+      "content": {
+        "name": "Finder",
+        "branch": "%stylesheets",
+        "root": "%root"
+      }
+    },
+    "panes.css": {
+      "path": "assets/css/panes.css",
+      "content": {
+        "name": "Panes",
+        "branch": "%stylesheets",
+        "root": "%root"
+      }
+    },
+    "property-sheet.css": {
+      "path": "assets/css/property-sheet.css",
+      "content": {
+        "name": "Property Sheet",
+        "branch": "%stylesheets",
+        "root": "%root"
+      }
+    },
+    "raw.css": {
+      "path": "assets/css/raw.css",
+      "content": {
+        "name": "Raw",
+        "branch": "%stylesheets",
+        "root": "%root"
+      }
+    },
+    "style-editor.css": {
+      "path": "assets/css/style-editor.css",
+      "content": {
+        "name": "Style Editor",
+        "branch": "%stylesheets",
+        "root": "%root"
+      }
+    }
+  }
+}

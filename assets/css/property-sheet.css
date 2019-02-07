@@ -1,0 +1,13 @@
+.tre-property-sheet {
+    font-family: "NotoSansDisplay ThinItalic";
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding-right: 2em;
+    color: #ccc;
+}
+
+.tre-property-sheet input {
+    margin: 1px 3px;
+    border: 1px solid #333;
+    padding: 0px .3em;
+}

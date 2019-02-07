@@ -1,0 +1,87 @@
+body .pane {
+    background: #bbb;
+}
+
+.tre-finder > .tre-sortable-list {
+    padding-left: 1.4em;
+}
+
+.tre-finder [data-key] {
+    height: 100%;
+    display: inline-block;
+    filter: contrast(140%);
+    padding: 0;
+    margin-left: -1.5em;
+    padding-left: 1.5em;
+    border-radius: 4px 0 0 0;
+    border-bottom: 1px solid #888;
+    mix-blend-mode: darken;
+    
+}
+
+.tre-finder [data-key]:hover {
+    background: rgba(120,255,120,0.5);
+}
+
+.tre-finder .indicators,
+.tre-finder .actions {
+    display: inline-block;
+    height: 1.4em
+    
+}
+
+.tre-finder .indicators>img,
+.tre-finder .actions >img {
+    height: 70%;
+    width: auto;
+    opacity: 0;
+    padding: 2px;
+    margin: 2px 0px;
+    mix-blend-mode: initial;
+}
+
+.tre-finder [data-key]:hover .actions >img {
+    opacity: 0.4;
+}
+
+.tre-finder .indicators>img {
+    opacity: 0.9;
+    margin-right: .3em;
+    margin-bottom: -.25em;
+    height: 60%;
+}
+
+.tre-finder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.tre-finder .summary .actions>img:hover {
+    opacity: 1;
+    background: white;
+    filter: invert(60%) contrast(200%);
+    border-radius: 4px;
+}
+.tre-finder .summary .actions {
+    position: absolute;
+    right: 20px;
+    padding-right: 2px;
+    margin-right: -2px;
+}
+.tre-finder .summary:hover .actions {
+    background: #aaa;
+}
+
+.tre-finder summary {
+    height: 1.6em;
+}
+
+.tre-finder .summary>span {
+    display: inline-block;
+    min-width: 2em;
+    max-width: 4em;
+    padding-top: 0.35em;
+    height: 100%;
+}
