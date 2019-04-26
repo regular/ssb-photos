@@ -55,7 +55,7 @@ where `address of pub` is the output of `sbot getAddress` run on the pub.
 
 ## Create invites
 
-Locally run `tre-invite --compact` to create an invite code for a friend. Send that code via email or messanger. Your friend needs to download [bay-of-plenty](github.com/regular/bay-of-plenty) (currently OSX only) and paste that invite code. Now you can collaborate on the photo collection.
+Locally run `tre-invite --compact` to create an invite code for a friend. Send that code via email or messanger. Your friend needs to download [bay-of-plenty](https://github.com/regular/bay-of-plenty/releases/) (currently OSX only) and paste that invite code. Now you can collaborate on the photo collection.
 
 ---
 
